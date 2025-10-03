@@ -99,6 +99,19 @@ See [`sql/analytic_queries.sql`](sql/analytic_queries.sql) for:
 **Link:** GitHub repo + add 1–2 screenshots from `screenshots/`.
 
 ---
+## 📊 Example Outputs
+
+### 1. Exploratory Data Analysis (EDA)
+Fraud rate by transaction hour shows clear night-time risk.  
+![EDA Fraud by Hour](screenshots/eda_fraud_by_hour.png)
+
+### 2. Daily Fraud Summary (CSV → Excel)
+Automatically generated daily fraud report with fraud counts and amounts.  
+![Fraud Summary Excel](screenshots/fraud_summary_excel.png)
+
+### 3. SQL Analytics
+Fraud rate by merchant category from MySQL analytics.  
+![SQL Fraud by Category](screenshots/sql_fraud_by_category.png)
 
 **Author:** Your Name  
 **License:** MIT
