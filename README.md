@@ -97,8 +97,6 @@ See [`sql/analytic_queries.sql`](sql/analytic_queries.sql) for:
 **What I did:** Built an end‑to‑end fraud pipeline using Isolation Forest; designed MySQL schema; automated daily fraud summary; EDA + dashboards.  
 **Tech:** Python (pandas, scikit‑learn), MySQL, SQL analytics, CLI pipeline, CSV reports.  
 **Link:** GitHub repo + add 1–2 screenshots from `screenshots/`.
-
----
 ## 📊 Example Outputs
 
 ### 1. Exploratory Data Analysis (EDA)
@@ -106,12 +104,15 @@ Fraud rate by transaction hour shows clear night-time risk.
 ![EDA Fraud by Hour](screenshots/eda_fraud_by_hour.png)
 
 ### 2. Daily Fraud Summary (CSV → Excel)
-Automatically generated daily fraud report with fraud counts and amounts.  
+Automatically generated fraud report with fraud counts and amounts.  
 ![Fraud Summary Excel](screenshots/fraud_summary_excel.png)
 
 ### 3. SQL Analytics
 Fraud rate by merchant category from MySQL analytics.  
 ![SQL Fraud by Category](screenshots/sql_fraud_by_category.png)
 
-**Author:** Your Name  
-**License:** MIT
+### 4. Fraud Summary CSV (Preview)
+Snapshot of daily fraud counts and fraud rate (%).  
+![Fraud Summary Table](screenshots/fraud_summary_table.png)
+---
+
