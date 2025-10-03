@@ -1,0 +1,15 @@
+# Project configuration
+database:
+  host: localhost
+  port: 3306
+  user: root
+  password: ""
+  database: creditrisk
+
+pipeline:
+  random_state: 1337
+  test_size: 0.2
+
+features:
+  numeric_cols: [amount, v1, v2, v3, v4, v5]
+  categorical_cols: [merchant_cat]
